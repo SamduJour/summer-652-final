@@ -1,0 +1,11 @@
+*{
+    background-color: #00000006;
+}
+
+header{
+    text-align: center
+    color: rebeccapurple;
+    font-family: 'Courier New';
+    font-weight: 300;
+    font-size: 30px;
+}
