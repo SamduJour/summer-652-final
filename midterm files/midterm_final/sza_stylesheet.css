@@ -1,0 +1,100 @@
+*{
+    background-color: lightpink; 
+    padding-left: 80px;
+}
+
+#website-style{
+    font-style: italic;
+    font-family: 'sans-serif';
+}
+
+header{
+    text-align: center
+        background: https://www.vanityfair.com/style/2018/06/nyc-dyke-march-pride('Dyke-March-NYC-2018-Faibyshev-SS01.jpg') no-repeat top center;
+    color: rebeccapurple;
+    font-family: 'Courier New';
+    font-weight: 300;
+    font-size: 30px;
+}
+
+#SZA{
+    color: palevioletred;
+    font-family: 'Arial Black';
+    font-size: 160px;
+    border: 40px;
+    border-color: deeppink
+}
+
+body{
+    background-color: deeppink;
+    opacity: 0.7;
+}
+
+main{
+    text-align: center;
+    padding-right: 80px;
+    padding-left: 80px;
+    line-height: 2.5em;
+    font-size: 20;
+        
+}
+
+.content-wrapper{
+    padding: 10px 30px;
+    border: 120px;
+}
+
+
+p{
+    text-align: justify;
+    font-family: Georgia;
+}
+
+
+h1{
+    text-align: center;
+    font-family: 'Arial Black', Impact, Roboto, Non-serif;
+}
+
+.h1 title{
+    font-size: 150px;
+    font-weight: 900px;
+    font-family: fantasy
+}
+
+h2{
+    font-family: Roboto, Geneva;
+    font-weight: 750;
+    text-decoration: underline;
+    line-height: 3em;
+   
+}
+
+.h2{
+   font-size: 120px;
+}
+
+
+.highlight{
+    font-weight: 700;
+    color: forestgreen;
+}
+
+
+h3{
+font-family: Georgia, Serif;
+}
+
+footer{
+    color: azure;
+    padding-bottom: 100px;
+}
+
+a {
+    color: rebeccapurple;
+}
+
+ul li{
+    list-style-type: square;
+    margin-bottom: 10px;
+    margin-left: 50px;
