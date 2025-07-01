@@ -1,11 +1,63 @@
 
 
+/* main style */
 
 
 
-
-body {
+body{
     font-family: "Open Sans", Arial, sans-serif;
-font-weight: 1em;
-    font-color: red;
+font-size: 1em;
+    color: #444;
+    font-weight: 400;
 }
+
+
+#container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#name {
+    font-size: 3em;
+    text-transform: uppercase;
+    color: #33485e;
+    text-align: center;
+    border-bottom: 1px solid #33485e;
+    width:60%;
+    min-width:300px;
+    margin: 0 auto;
+}
+
+strong{
+    font-size: 1.5em;
+    text-transform: uppercase;
+    color: #33485e;
+}
+
+.sectionheader {
+    font-size: 1.5em;
+    text-transform: uppercase;
+    background-color: #33485e;
+    color:#fff;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    width:70%;
+    min-width: 300px;
+}
+
+.job title{
+    font-weight: 600;
+    font-size: 1.5;
+}
+
+
+
+
+
+
+
+
+
