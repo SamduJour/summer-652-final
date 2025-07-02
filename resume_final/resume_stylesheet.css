@@ -2,17 +2,19 @@
 
 *{
 margin: 0;
-padding: 0;
+padding-left: 15px;
     box-sizing: border-box;
+    max-width: 1200px;
 }
 
 #navbar {
     position: fixed;
     width: 100%;
+    background-color: #36366B;
 }
 
 .container-fluid{
-    padding-right: 30px;
+    padding: 30px;
 }
 
 
@@ -37,6 +39,12 @@ padding: 0;
     border-bottom: 7px;
 }
 
+h1{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
 .image {
     width: 100%;
     height: 100vh;
@@ -47,15 +55,6 @@ padding: 0;
     font-size: 36px;
     font-weight: 300;
     font-family: "Raleway", "Helvetica", "sans serif";
-}
-
-
-.raleway-<uniquifier> {
-  font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <400>;
-  font-style: normal;
-}
 
 img {
     border-radius: 50%;
@@ -67,20 +66,14 @@ img {
 }
 
 
-body {
-margin: 0 auto;
-width: 100%;
-    max-width: 1200px
-}
-
 .video{
     align-content: left;
     size: 200px;
     padding-bottom: 100px;
 }
 
-.audio{
-    padding: 10px;
+#audio{
+    align-content: center;
 }
 
 .row {  
@@ -88,17 +81,24 @@ width: 100%;
     border-color: black;
         opacity: 100%;
 }
+    
 .col-8 {
-background-image: url(downloaded/vecteezy_microphone-headphone-book-and-paper-note-on-brown-wooden_6306211.JPG); background-size: 60 px;
-    background-position: left;
+background-image: url(downloaded/vecteezy_microphone-headphone-book-and-paper-note-on-brown-wooden_6306211.JPG);           size: 100%
     color: #fff;
 }
 
+#languages {
+    padding-bottom: 60px;
+}
+
 .fixed-bottom{
+    background-image: url(downloaded/vecteezy_microphone-headphone-book-and-paper-note-on-brown-wooden_6306211.JPG);           
+    size: 100%
+    color: #fff; 
     width: 100%;
     line-height: 50px;
-    background-color: #36366B;
-    color: #FFF;
+    background-color: #FFF;
+    color: black;
     font-size: 22px;
 }
 
