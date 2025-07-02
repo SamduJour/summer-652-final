@@ -26,7 +26,7 @@ padding: 0;
   justify-content: wrap;
   align-items: center;
   background-color: #3a3f2d;
-    background-image: url(downloaded/news.png);  background-size: cover;
+    background-image: url(downloaded/vecteezy_hand-adjusting-cinema-camera_1864606.jpeg);  background-size: cover;
   background-position: 47% 76%;
 }
 
@@ -46,7 +46,7 @@ padding: 0;
     color: #fff;
     font-size: 36px;
     font-weight: 300;
-    font-family: raleway, Helvetica, "sans serif";
+    font-family: "Raleway", "Helvetica", "sans serif";
 }
 
 
@@ -61,13 +61,13 @@ img {
     border-radius: 50%;
     width: 360px;
     height: 360px;
-    padding: 20px;
+    padding: 40px;
     border: 2px;
     border-color: #fff;
 }
 
 
-.wrapper-hero{
+body {
 margin: 0 auto;
 width: 100%;
     max-width: 1200px
@@ -83,9 +83,15 @@ width: 100%;
     padding: 10px;
 }
 
-.row-big {
-        background-image: url(downloaded/news.png); background-size: 1200;
+.row {  
+        border: 2px;
+    border-color: black;
+        opacity: 100%;
+}
+.col-8 {
+background-image: url(downloaded/vecteezy_microphone-headphone-book-and-paper-note-on-brown-wooden_6306211.JPG); background-size: 60 px;
     background-position: left;
+    color: #fff;
 }
 
 .fixed-bottom{
