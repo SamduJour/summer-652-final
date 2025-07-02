@@ -2,10 +2,36 @@
 
 *{
 margin: 0;
-padding: 0
+padding: 0;
+    box-sizing: border-box;
 }
 
-.container{
+
+.image {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #36366B; 
+    color: #fff;
+    font-size: 36px;
+    font-weight: 300;
+    font-family: Helvetica, "sans serif";
+    
+}
+
+img {
+    border-radius: 50%;
+    width: 360px;
+    height: 360px;
+    padding: 20px;
+    border: 2px;
+    border-color: #fff;
+}
+
+
+.wrapper{
 margin: 0 auto;
 width: 100%;
     max-width: 1200px
@@ -13,5 +39,11 @@ width: 100%;
 
 .contact{
     
+}
+
+.video{
+    align-content: right;
+    padding-left: 100px;
+    padding-bottom: 100px;
 }
 
