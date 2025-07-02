@@ -6,6 +6,21 @@ padding: 0;
     box-sizing: border-box;
 }
 
+#navbar {
+    position: fixed;
+    width: 100%;
+}
+
+.container-fluid{
+    padding-right: 30px;
+}
+
+
+#name {
+    line-height: 80px;
+    color: #fff;
+    border-bottom: 7px;
+}
 
 .image {
     width: 100%;
@@ -17,8 +32,15 @@ padding: 0;
     color: #fff;
     font-size: 36px;
     font-weight: 300;
-    font-family: Helvetica, "sans serif";
-    
+    font-family: raleway, Helvetica, "sans serif";
+}
+
+
+.raleway-<uniquifier> {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <400>;
+  font-style: normal;
 }
 
 img {
@@ -42,8 +64,12 @@ width: 100%;
 }
 
 .video{
-    align-content: right;
-    padding-left: 100px;
+    align-content: left;
+    size: 200px;
     padding-bottom: 100px;
+}
+
+.audio{
+    padding: 10px;
 }
 

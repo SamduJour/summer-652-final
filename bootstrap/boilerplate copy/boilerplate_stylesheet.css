@@ -1,7 +1,15 @@
 
-*body {
-    background-color: red;
+@media screen and (max-width: 480px) {
+ /*Add CSS that only activates on screens less than 480x here*/
 }
+
+
+@media screen and (max-width: 480px) {
+ p {
+   font-size:px;
+ }
+}
+
 
 
 
