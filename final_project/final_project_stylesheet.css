@@ -1,0 +1,29 @@
+
+body {
+    font-family: sans-serif;
+    font-size: 1.5em;
+}
+
+
+#title {
+    font-size: 3em;
+    color: darkgreen;
+    font-weight: 850;
+    font-family: "american typewriter"
+}
+
+
+wrapper {
+    margin: 0 auto;
+}
+
+
+.subhead {
+    font-size: 2em;
+    font-weight: 800;
+    padding-top: 15px;
+}
+
+
+
+
