@@ -7,19 +7,6 @@
     max-width: 1200px}
 
 
-.roboto-<uniquifier> {
-  font-family: "Roboto", sans-serif;
-  font-size: inherit;
-  font-weight: <weight>;
-  font-style: normal;
-  font-variant: inherit
-    "wdth" <width>;
-}
-
-body {
-    font-size .25em;
-}
-
     .headline {
         font-size: 3em;
         font-weight: 700;
@@ -44,9 +31,20 @@ body {
 
 #maintext {
     font: roboto, georgia, serif;
-    text-align: center;
-    
-    
+    text-align: center;  
+}
+
+.roboto-<uniquifier> {
+  font-family: "Roboto", sans-serif;
+  font-size: inherit;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variant: inherit
+    "wdth" <width>;
+}
+
+body {
+    font-size 1.5em;
 }
 
 
