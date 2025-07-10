@@ -30,21 +30,21 @@ body {
     
     
     .byline {
-        font-size 2.5em !important;
+        font-size 2em !important;
         font-weight 900 !important;
         color: red;
-         text-align: left;
+        text-align:left;
     }
     
     
     .date {
-        text-align: left;
+          text-align:left;
     }
 
 
 #maintext {
-    font: roboto, georgia, serif,
-        text-align:center;
+    font: roboto, georgia, serif;
+    text-align: center;
     
     
 }
