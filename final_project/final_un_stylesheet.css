@@ -1,6 +1,6 @@
 
 @media screen and (max-width: 480px) {
-
+    text-size: 1.5em;
 }
 
 @media {
@@ -15,69 +15,67 @@
 }
 
 
-body {
-    color: #003341
-    color: #d8edf3; 
-    
-    font-weight: 100;
-    margin: 0 auto
-    padding: auto;  
-
-}
-
-
 audio {
     color: #003341; 
 }
 
-.navbar navbar-expand-lg navbar-light bg-light {
-    font-size: 1.5em;
-    background-color: #003341 !important;
-}
-
 
 nav.navbar.navbar-expand-lg.navbar-light.bg-light {
-   background: #cdcdcd !important;
+    display: block;
+    font-size: 1.5em;
+    background-color: #d8edf3; 
+    color: #003341;
+
 }
 
 a.navbar-brand {
-    padding-left: 40px; 
+    padding-left: 40px;
+    font-size: 2em;
+}
+
+a.nav-link dropdown-toggle {
+    font-size: 2em;
 }
 
 p {
-    font-family: 'Roboto';
+    font-family: 'Roboto', serif;
     font-weight: 500;
-    font-size: 24px;
 }
 
 header {
     background-color: #003341;
-    height: 750px;
+    max-height: 1200px;
+    padding: 30px;
+    opacity: 85%;
 }
 
 
-#container-main {
+*container-main {
+    display: block;
+    margin: auto;
+    padding: 0 auto;
+    text-align: left;    
     color: #003341;
-    background-color: #d8edf3; 
+    background-color: #c1e7f1 !important; 
     max-width: 1600px;
     max-width: auto;
-    align-content: center;
     padding-left: 30px;
     padding-right: 30px;
     font-weight: 400;
-    
 }
+
 
 .hero {
     margin: -1rem -1rem 1rem;
     height: 50svh;
-    color: white;
     font-weight: 300;
-    font-size: 2em;
+    font-size: 2.25em;
     display: flex;
     justify-content: wrap;
     align-items: center;
-    background-image: url(downloaded/vecteezy_hand-adjusting-cinema-camera_1864606.jpeg);  background-size: cover;
+    background-image: url(images/unlogo_mixedbillsbackdrop.png);
+    max-height: 1800px;
+    background-size: cover;
     background-position: 47% 76%;
 }
 
@@ -102,7 +100,6 @@ header {
         font-size 2.5em !important;
         font-weight 600 !important;
         padding-left: 20px;
-        padding-top: 80px;
         font-style: italic;
         font-weight: 600;
         font-family: roboto;
@@ -114,7 +111,8 @@ header {
     .date {
         text-align:left;
         font-style: italic;
-        padding-left: 30px;
+        padding-left: 20px;
+        padding-top: 5px;
         line-height: 1.0;
         font-weight: 600;
         font-family: roboto;
@@ -134,16 +132,23 @@ header {
 
     #maintext {
         text-align: left;  
-        font-size: 26px;
+        font-size: 22px !important;
         padding-left: 30px;
         padding-right: 30px;
+        padding-top: 100px;
+        padding-bottom: 70px;
+        max-width: 1900px;
+        background-color: #c1e7f1 !important; 
+
     }
 
 
     img {
-         display: block;
+        display: block;
         margin: auto;
         padding: 0 auto;
+        max-width: 1950px;
+        max-height: auto;
         align-items: center;
     }
 
@@ -165,9 +170,26 @@ header {
     }
 
 
+body {
+    display: block !important;
+    color: #003341;
+    background-color: #c1e7f1 !important; 
+    !important;  
+    font-weight: 300;
+    margin: 0 auto
+    padding: auto; 
+    margin: auto;
+    padding: 0 auto;
+
+}
+
+
     footer {
         background-color: #003341;
+        color: #c1e7f1;
         height: 150px;
+        padding-left: 60px;
+        font-size: 2em;
         width: auto;
         width: 100% !important;
     }
