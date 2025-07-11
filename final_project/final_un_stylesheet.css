@@ -26,6 +26,14 @@ body {
 
 }
 
+audio {
+    color: #003341; 
+}
+
+navbar navbar-expand-lg navbar-light bg-light {
+    font-size: 1.5em;
+}
+
 p {
     font-family: 'Roboto';
     font-weight: 500;
@@ -34,6 +42,7 @@ p {
 
 header {
     background-color: #003341;
+    height: 750px;
 }
 
 
@@ -43,6 +52,8 @@ header {
     max-width: 1600px;
     max-width: auto;
     align-content: center;
+    padding-left: 30px;
+    padding-right: 30px;
     font-weight: 400;
     
 }
@@ -55,10 +66,10 @@ header {
         color: #009edb;
     }
 
-h1 {
+    h1 {
         font-size: 3.75em;
         font-weight: 300;
-        padding-bottom: 50px;
+        padding-bottom: 100px;
         text-align: center;
         color: #009edb;
 }
@@ -68,8 +79,11 @@ h1 {
         font-size 2.5em !important;
         font-weight 600 !important;
         padding-left: 50px;
+        font-style: italic;
+        font-weight: 600;
         color: #d8edf3; 
         font-family: roboto;
+        line-height: .8;
         text-align:left;
     }
     
@@ -77,24 +91,57 @@ h1 {
     .date {
         text-align:left;
         color: #d8edf3; 
+        font-style: italic;
         padding-left: 50px;
+        line-height: .8;
+        font-weight: 600;
         font-family: roboto;
     }
 
-#subhead {
-    color:#009edb
-}
 
-#maintext {
-    text-align: center;  
-}
-
-img {
-    align-content: center !important;
-}
-
+    #subhead {
+            color:#009edb
+            padding: 45px;
+            padding-bottom: 50px;
+            border: 2.5px; 
+        border-color: #009edb;
+            font-size: 44px;
+            color: #009edb;
+    }
 
 
+    #maintext {
+            text-align: left;  
+        font-size: 26px;
+    }
+
+
+    img {
+        padding: 0 auto;
+        align-items: center;
+    }
+
+    .blurrybills {
+        align-content: center !important;
+        padding-left: 70px;
+    }
+
+
+    .21 {
+        align-content: right !important;
+    }
+
+
+    #graphic-1 {
+        margin: inherit;
+        padding: 40px;
+    }
+
+
+    footer {
+        background-color: #003341;
+        height: 150px;
+    }
 
 
 
