@@ -38,13 +38,9 @@ header {
 
 
 #container-main {
-    color: #003341;
     background-color: #d8edf3; 
     max-width: 1600px;
-    max-width: auto;
-    align-content: center;
-    font-weight: 400;
-    
+    text-align: center;    
 }
 
     #headline {
@@ -86,16 +82,42 @@ h1 {
 }
 
 #maintext {
-    text-align: center;  
+    text-align: left; 
+    font-weight: 800;
+    color: #003341;
+
+
 }
 
 img {
-    align-content: center !important;
+    text-align: center !important;
 }
 
 
+.col {
+    height: 100px;
+        color: #003341;
 
+}
 
+.col-8 {
+    height: 100px;
+        color: #003341;
+
+}
+
+.col-4 {
+    height: 100px;
+        color: #003341;
+
+}
+
+footer {
+    color: #d8edf3;
+    background-color: #003341;
+    background-color: 
+    font-size: 1.3em;
+}
 
 
 

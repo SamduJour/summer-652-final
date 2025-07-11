@@ -40,7 +40,6 @@ a.nav-link dropdown-toggle {
 p {
     font-family: 'Roboto', serif;
     font-weight: 500;
-    color: #003341;
 }
 
 header {
@@ -54,7 +53,7 @@ header {
 *container-main {
     display: block;
     margin: auto;
-    padding: 0;
+    padding: 0 auto;
     text-align: left;    
     color: #003341;
     background-color: #c1e7f1 !important; 
@@ -120,6 +119,24 @@ header {
     }
 
 
+.col-9 {
+    color: #003341;
+    background-color: inherit;
+    height: auto;
+    min-height: 1000px;
+}
+
+    #subhead {
+            color:#009edb
+            padding: 45px;
+            padding-bottom: 50px;
+            border: 2.5px; 
+        border-color: #009edb;
+            font-size: 44px;
+            color: #009edb;
+    }
+
+
     #maintext {
         text-align: left;  
         font-size: 22px !important;
@@ -129,15 +146,7 @@ header {
         padding-bottom: 70px;
         max-width: 1900px;
         background-color: #c1e7f1 !important; 
-}
-        
- #subhead {
-        color:#009edb;
-        padding-bottom: 50px;
-        border-bottom: 5px;     border-color: #009edb;
-        font-size: 44px;
-        font-weight: 700;
-        color: #009edb;
+
     }
 
 
@@ -145,6 +154,8 @@ header {
         display: block;
         margin: auto;
         padding: 0 auto;
+        max-width: 1950px;
+        max-height: auto;
         align-items: center;
     }
 
@@ -160,8 +171,7 @@ header {
     }
 
 
-    #data-map {
-        background-color: #fff;
+    #graphic-1 {
         margin: inherit;
         padding: 40px;
     }
@@ -172,8 +182,8 @@ body {
     color: #003341;
     background-color: #c1e7f1 !important; 
     !important;  
-    font-weight: 500;
-    margin: 0 auto;
+    font-weight: 300;
+    margin: 0 auto
     padding: auto; 
     margin: auto;
     padding: 0 auto;
