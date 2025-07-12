@@ -79,10 +79,64 @@ header {
     text-decoration-line: 2px;
     font-weight: 800;
     opacity: 85% !important;
-
 }
 
 
+@media screen and (max-width:768px) {
+#headline {
+    font-size: .75em;
+}
+    }
+    
+@media screen and (max-width:991) {
+#headline {
+    font-size: 1.5em;
+}
+    }
+
+
+
+@media screen and (max-width: 1199px) {
+ {
+    font-size: 2em;
+}
+    }
+    
+@media screen and (max-width:768px) {
+img {
+    img: 25%;
+}
+    }
+    
+@media screen and (max-width:991px) {
+img {
+    img: 50%;
+}
+    }
+
+@media screen and (max-width: 1199px) {
+img {
+    background-image: 75%;
+}
+    }
+    
+
+.hero {
+    margin: -1rem -1rem 1rem;
+    height: 160svh;
+    font-weight: 300;
+    font-size: 4em;
+    display: flex;
+    justify-content: wrap;
+    align-items: center;
+    background-image: url(images/unlogo_mixedbillsbackdrop.png);
+    max-height: 1800px;
+    background-size: cover;
+    background-position: 47% 76%;
+}
+
+    
+    
 @media screen and (max-width:768px) {
 .hero {
     background-image: 25%;
@@ -100,18 +154,16 @@ header {
     background-image: 75%;
 }
     }
-.hero {
-    margin: -1rem -1rem 1rem;
-    height: 160svh;
-    font-weight: 300;
-    font-size: 4em;
-    display: flex;
-    justify-content: wrap;
-    align-items: center;
-    background-image: url(images/unlogo_mixedbillsbackdrop.png);
-    max-height: 1800px;
-    background-size: cover;
-    background-position: 47% 76%;
+
+}
+
+
+    #headline {
+        padding-top: 50px;
+        font-size: 4.5em;
+        font-weight: 300;
+        text-align: center;
+        color: #009edb;
 }
 
 @media screen and (max-width:768px) {
@@ -131,13 +183,10 @@ header {
     font-size: 3em;
 }
     }
-    #headline {
-        padding-top: 50px;
-        font-size: 4.5em;
-        font-weight: 300;
-        text-align: center;
-        color: #009edb;
-}
+
+
+
+
     h1 {
         font-size: 2.75em;
         font-weight: 300;
@@ -145,7 +194,27 @@ header {
         text-align: center;
         color: #009edb;
 }
+ 
+@media screen and (max-width: 1199px) {
+h1 {
+    font-size: 3em;
+}
+    }
+
+@media screen and (max-width:768px) {
+h1 {
+    font-size: .5em;
+}
+    }
     
+@media screen and (max-width:991px) {
+h1 {
+    font-size: 1.25em;
+}
+    }
+
+
+
     #byline {
         font-size 2.5em !important;
         font-weight 300 !important;
