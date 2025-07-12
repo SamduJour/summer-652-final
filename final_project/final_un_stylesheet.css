@@ -81,13 +81,14 @@ p {
 
 header {
     background-color: #003341;
-    font-family: "Roboto";
-    opacity: 85%;
     margin: 0 auto;
     width: 100%;
-    padding: 170px;
-    padding-top: 100px;
-    
+    padding: 100px;
+    padding-top: 90px;
+    font-family: "Roboto";
+    text-decoration-line: 2px;
+    font-weight: 800;
+    opacity: 85% !important;
 
 }
 
@@ -124,7 +125,7 @@ header {
     
     #byline {
         font-size 2.5em !important;
-        font-weight 600 !important;
+        font-weight 300 !important;
         padding-left: 20px;
         font-style: italic;
         font-weight: 600;
@@ -141,7 +142,7 @@ header {
         padding-top: 5px;
         padding-bottom: 50px;
         line-height: 1.0;
-        font-weight: 600;
+        font-weight: 300;
         font-family: roboto;
     }
 
@@ -159,12 +160,14 @@ header {
         
  #subhead {
         color:#009edb;
-        padding-bottom: 50px;
+        padding-bottom: 30px;
+        padding-top: 30px;
         border-bottom: 5px;   border-color: #009edb;
         font-size: 44px;
         font-weight: 700;
         color: #009edb;
     }
+
 
 blockquote {
     font-size: 1.3em;
@@ -173,6 +176,7 @@ blockquote {
     line-height: 1.6em;
     font-weight: 800;
     padding-bottom: 20px;
+    padding-top: 20px;
     border: 4px;
 
 }
@@ -181,22 +185,35 @@ blockquote {
         display: block;
         margin: auto;
         padding: 0 auto;
-        align-items: center;
+        text-align: center;
     }
 
-.caption {
+    .caption {
     color: #003341;
+    font-weight: 300;
 }
 
-    }
+    #cartoon {
+    padding-left: 75px;
+}
+
+    
+    a {
+    color: inherit;
+}
+
+
     .blurrybills {
         align-content: center !important;
         padding-left: 70px;
     }
 
 
-    .21 {
+    #21 {
         text-align: right !important;
+        display: flex;
+    justify-content: wrap;
+        margin-bottom: 25px !important;
     }
 
 
@@ -205,17 +222,26 @@ text-align: center;
     padding-left: 40px;
 }
 
+col {
+    column-gap: 50px;
+    text-align: center;
+}
+
+
 
 /*--all date charts--*/
 
     #data-map {
         background-color: #fff;
         margin: inherit;
+        padding: 10px;
     }
 
     #pie-chart-data {
      background-color: #fff;
-        margin: inherit;
+        margin: 25px;
+        padding: 10px;
+        
 }
 
     #peacekeeper-data {
@@ -223,6 +249,7 @@ text-align: center;
       margin-top: 40px;
      margin-left: 40px;
      margin-right: 40px;
+        padding: 10px;
 }
 /*--end all date charts--*/
 
