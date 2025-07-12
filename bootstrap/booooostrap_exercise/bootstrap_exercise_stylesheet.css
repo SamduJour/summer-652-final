@@ -48,7 +48,6 @@ body {
 .col-md-6 {
     margin: auto;
     width: 50%;
-    border: 3px solid green;
     padding: 10px;
     text-align: center;
     object-position: center;
@@ -57,7 +56,6 @@ body {
 .col-md-4 {
     margin: auto;
     width: 50%;
-    border: 3px solid green;
     padding 10px;
     text-align: center;
 }
