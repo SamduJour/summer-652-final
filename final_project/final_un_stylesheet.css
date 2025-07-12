@@ -20,6 +20,18 @@ audio {
 }
 
 
+#navbar {
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.nav-item {
+    text-align: center;
+}
+
+
+/*--adjusting the navbar and this is te old one
+
 nav.navbar.navbar-expand-lg.navbar-light.bg-light {
     display: block;
     font-size: 1.5em;
@@ -29,7 +41,6 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light {
 }
 
 a.navbar-brand {
-    padding-left: 40px;
     font-size: 2em;
 }
 
@@ -37,17 +48,13 @@ a.nav-link dropdown-toggle {
     font-size: 2em;
 }
 
+--*/
+
+
 p {
     font-family: 'Roboto', serif;
     font-weight: 500;
     color: #003341;
-}
-
-header {
-    background-color: #003341;
-    max-height: 1200px;
-    padding: 30px;
-    opacity: 85%;
 }
 
 
@@ -65,10 +72,16 @@ header {
     font-weight: 400;
 }
 
+header {
+    background-color: #003341;
+    max-height: 1200px;
+    padding: 30px;
+    opacity: 85%;
+}
 
 .hero {
     margin: -1rem -1rem 1rem;
-    height: 50svh;
+    height: 160svh;
     font-weight: 300;
     font-size: 2.25em;
     display: flex;
@@ -82,14 +95,14 @@ header {
 
     #headline {
         padding-top: 50px;
-        font-size: 4em;
+        font-size: 3em;
         font-weight: 300;
         text-align: center;
         color: #009edb;
     }
 
     h1 {
-        font-size: 3.75em;
+        font-size: 2.75em;
         font-weight: 300;
         padding-bottom: 100px;
         text-align: center;
