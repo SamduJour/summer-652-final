@@ -25,9 +25,16 @@ audio {
     font-weight: 700;
 }
 
-.nav-item {
+.nav-link {
     text-align: center;
 }
+
+.col-sm-3 {
+    column-count: 4;
+column-gap: 10px !important;
+    text-align: center;
+}
+
 
 
 /*--adjusting the navbar and this is te old one
@@ -74,9 +81,14 @@ p {
 
 header {
     background-color: #003341;
-    max-height: 1200px;
-    padding: 30px;
+    font-family: "Roboto";
     opacity: 85%;
+    margin: 0 auto;
+    width: 100%;
+    padding: 170px;
+    padding-top: 100px;
+    
+
 }
 
 .hero {
@@ -127,6 +139,7 @@ header {
         font-style: italic;
         padding-left: 20px;
         padding-top: 5px;
+        padding-bottom: 50px;
         line-height: 1.0;
         font-weight: 600;
         font-family: roboto;
@@ -147,12 +160,22 @@ header {
  #subhead {
         color:#009edb;
         padding-bottom: 50px;
-        border-bottom: 5px;     border-color: #009edb;
+        border-bottom: 5px;   border-color: #009edb;
         font-size: 44px;
         font-weight: 700;
         color: #009edb;
     }
 
+blockquote {
+    font-size: 1.3em;
+    color: #009edb;
+    font-style: italic;
+    line-height: 1.6em;
+    font-weight: 800;
+    padding-bottom: 20px;
+    border: 4px;
+
+}
 
     img {
         display: block;
@@ -160,6 +183,10 @@ header {
         padding: 0 auto;
         align-items: center;
     }
+
+.caption {
+    color: #003341;
+}
 
     }
     .blurrybills {
@@ -173,25 +200,34 @@ header {
     }
 
 
+.youtube {
+text-align: center;
+    padding-left: 40px;
+}
+
+
+/*--all date charts--*/
+
     #data-map {
         background-color: #fff;
         margin: inherit;
     }
 
-#pie-chart-data {
+    #pie-chart-data {
      background-color: #fff;
         margin: inherit;
 }
 
-#peacekeeper-data {
+    #peacekeeper-data {
     background-color: #FFF;
       margin-top: 40px;
      margin-left: 40px;
      margin-right: 40px;
 }
+/*--end all date charts--*/
 
 
-body {
+    body {
     display: block !important;
     color: #003341;
     background-color: #c1e7f1 !important; 
