@@ -55,7 +55,7 @@ p {
 }
 
 
-*container-main {
+#container-main {
     display: block;
     margin: auto;
     padding: 0;

@@ -102,25 +102,6 @@ header {
 }
     }
     
-@media screen and (max-width:768px) {
-img {
-    img: 25%;
-}
-    }
-    
-@media screen and (max-width:991px) {
-img {
-    img: 50%;
-}
-    }
-
-@media screen and (max-width: 1199px) {
-img {
-    background-image: 75%;
-}
-    }
-    
-
 .hero {
     margin: -1rem -1rem 1rem;
     height: 160svh;
@@ -279,6 +260,25 @@ blockquote {
         padding: 0 auto;
         text-align: center;
     }
+
+@media screen and (max-width:768px) {
+*img {
+    img: 25%;
+}
+    }
+    
+@media screen and (max-width:991px) {
+*img {
+    img: 50%;
+}
+    }
+
+@media screen and (max-width: 1199px) {
+img {
+    background-image: 75%;
+}
+    }
+
 
     .caption {
     color: #003341;
