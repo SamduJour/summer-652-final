@@ -94,6 +94,14 @@ img {
 }
 
 
+
+.container text-center {
+ text-align: center;
+}
+
+
+
+
 .col {
     height: 100px;
         color: #003341;
@@ -111,6 +119,28 @@ img {
         color: #003341;
 
 }
+
+ #data-map {
+        margin-top: 40px;
+     margin-left: 40px;
+     margin-right: 40px;    
+    }
+
+#pie-chart-data {
+    
+        margin-top: 40px;
+     margin-left: 40px;
+     margin-right: 40px;    
+    }
+
+
+#peacekeeper-data {
+      margin-top: 40px;
+     margin-left: 40px;
+     margin-right: 40px;
+}
+
+
 
 footer {
     color: #d8edf3;

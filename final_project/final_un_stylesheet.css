@@ -169,15 +169,26 @@ header {
 
 
     .21 {
-        align-content: right !important;
+        text-align: right !important;
     }
 
 
     #data-map {
         background-color: #fff;
         margin: inherit;
-        padding: 40px;
     }
+
+#pie-chart-data {
+     background-color: #fff;
+        margin: inherit;
+}
+
+#peacekeeper-data {
+    background-color: #FFF;
+      margin-top: 40px;
+     margin-left: 40px;
+     margin-right: 40px;
+}
 
 
 body {
